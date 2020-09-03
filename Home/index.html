@@ -5,10 +5,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="/Home/reset.css">
+  <link rel="stylesheet" href="/Home/bootstrap-grid.css">
+  <link rel="stylesheet" href="/Home/style.css">
 </head>
 
 <body>
-  <header class="main">
+  <header class="header">
     <nav class="navigation">
       <input type="checkbox" id="menu" class="navigation__input">
       <label for="menu" class="navigation__menu">
@@ -16,11 +22,22 @@
       </label>
 
       <ul class="menu">
-        <li class="menu__item"><a href="#home" class="menu__link">Home</a></li>
-        <li class="menu__item"><a href="#polipropilen" class="menu__link">Polipropilen</a></li>
-        <li class="menu__item"><a href="#aluminium" class="menu__link">Aluminium</a></li>
-        <li class="menu__item"><a href="#cabel" class="menu__link">Cabel</a></li>
+        <li class="menu__item"><a href="#home" class="menu__link">Главная</a></li>
+        <li class="menu__item"><a href="#polipropilen" class="menu__link">Полипропилен</a></li>
+        <li class="menu__item">
+          <a href="#cabel" class="menu__link">Кабель, провод
+            <input type="checkbox" id="cabel__down" class="cabel__input">
+            <label for="cabel__down" class="cabel__list">
+              <img class="cabel__down-up" src="/Home/images/chevron-down.svg" alt="">
+            </label>
+          </a>
 
+          <ul class="cabel__menu">
+            <li class="cabel__item"><a href="#copper" class="cabel__link">Медный провод</a></li>
+            <li class="cabel__item"><a href="#aluminium" class="cabel__link">Алюминиевый кабель</a></li>
+          </ul>
+        </li>
+        <li class="menu__item"><a href="#aluminium-casting" class="menu__link">Литье алюминия</a></li>
       </ul>
     </nav>
   </header>
