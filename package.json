@@ -12,9 +12,14 @@
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3",
+<<<<<<< HEAD
     "react-slick": "^0.27.11",
     "sass-loader": "^10.0.2",
     "slick-carousel": "^1.8.1"
+=======
+    "reset-css": "^5.0.1",
+    "sass-loader": "^10.0.2"
+>>>>>>> 7d18ca4294861d02c3f022826829130b7354a849
   },
   "scripts": {
     "start": "react-scripts start",
