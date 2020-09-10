@@ -9,11 +9,13 @@ import Aluminium from "./Aluminium/aluminium"
 const App = () => {
     return (
       <Router>
-        <Route exact path="/" render={() => <Redirect to="/Main" />} />
-        <Route path="/main" render={() => <Main />} />
+        <Main />
+        {/* <Route exact path="/" render={() => <Redirect to="/Main" />} /> */}
+        {/* <Route path="/main" render={() => <Main />} />
         <Route path="/polipropilen" render={() => <Polipropilen />} />
-        <Route path="/cabel" render={() => <Cabel />} />
-        <Route path="/aluminium" render={() => <Aluminium />} />         
+        <Route path="/cabel" render={() => <Cabel />} /> */}
+        {/* <Route path="/aluminium" render={() => <Aluminium />} /> */}
+         <Aluminium />        
       </Router>
     );
   };
