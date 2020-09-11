@@ -11,3 +11,5 @@ sass-loader: sass-loader
 react-slick-slider: npm install react-slick --save
 
 slick-carousel for css and font: npm install slick-carousel
+
+use-dencrypt-effect: npm install --save use-dencrypt-effect

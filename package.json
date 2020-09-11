@@ -14,7 +14,8 @@
     "react-scripts": "3.4.3",
     "react-slick": "^0.27.11",
     "sass-loader": "^10.0.2",
-    "slick-carousel": "^1.8.1"
+    "slick-carousel": "^1.8.1",
+    "use-dencrypt-effect": "^1.0.2"
   },
   "scripts": {
     "start": "react-scripts start",

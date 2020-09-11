@@ -19,7 +19,7 @@ export default class SimpleSlider extends Component {
       slidesToScroll: 1,
       autoplay: true,
       speed: 3000,
-      autoplaySpeed: 4000,
+      autoplaySpeed: 2500,
       cssEase: "linear",
       pauseOnHover: true,
       swipeToSlide: true,
@@ -29,22 +29,22 @@ export default class SimpleSlider extends Component {
       <div>
         <Slider {...settings}>
           <div>
-            <img className="slider" src={pic_slider1} alt="aluminium" />
+            <img className="al__slider" src={pic_slider1} alt="aluminium" />
           </div>
           <div>
-            <img className="slider" src={pic_slider2} alt="aluminium" />
+            <img className="al__slider" src={pic_slider2} alt="aluminium" />
           </div>
           <div>
-            <img className="slider" src={pic_slider3} alt="aluminium" />
+            <img className="al__slider" src={pic_slider3} alt="aluminium" />
           </div>
           <div>
-            <img className="slider" src={pic_slider4} alt="aluminium" />
+            <img className="al__slider" src={pic_slider4} alt="aluminium" />
           </div>
           <div>
-            <img className="slider" src={pic_slider5} alt="aluminium" />
+            <img className="al__slider" src={pic_slider5} alt="aluminium" />
           </div>
           <div>
-            <img className="slider" src={pic_slider6} alt="aluminium" />
+            <img className="al__slider" src={pic_slider6} alt="aluminium" />
           </div>
         </Slider>
       </div>
