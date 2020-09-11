@@ -1,10 +1,9 @@
 .almenu {
+  &__button {
     display: flex;
-    justify-content: space-around;
-
-    &__button {
-        text-transform: uppercase;
-        padding: 40px;
-    }
-    
+    justify-content: space-between;
+   
+    font-size: 24px;
+    margin-top: 60px;
+  }
 }
