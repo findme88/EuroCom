@@ -29,13 +29,13 @@ export default class NavBar extends Component {
               );
             })}
           </ul>
-          {/* <Link to="/" >
+          <Link to="/" className="logo">
             <img id="logo"
-              src={require("./.../logo.svg")}
+              src={require("../NavBarLogo/Eurocom3.png")}
               alt="logo"
-              className="logo"
+
             />
-          </Link> */}
+          </Link>
         </div >
       </div >
     );

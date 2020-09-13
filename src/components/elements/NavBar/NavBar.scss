@@ -1,0 +1,51 @@
+@import "../../../scss/variables";
+@import "../../../scss/mixins";
+.navigation {
+  background-color: $navyblue;
+  position: sticky;
+  top:0;
+  width: 100%;
+  &__container{
+    display: flex;
+    justify-content: center;
+  
+  }
+  &-bar {
+    font-family: $Mont;
+    
+    order: 2;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__item {
+    margin: 20px 35px;
+    position: relative;
+    align-self: center;
+  }
+  &__link {
+    display: block;
+    text-transform: uppercase;
+    color: white;
+    
+    &::after {
+      position: absolute;
+      bottom: -10px;
+      left: 0;
+      content: "";
+      width: 0;
+      height: 3px;
+      background-color: red;
+      transition: .3s;
+      
+    }
+    &:hover::after{
+      width: 100%;
+
+    }
+  }
+}
+
+.logo {
+  order: 1;
+}
