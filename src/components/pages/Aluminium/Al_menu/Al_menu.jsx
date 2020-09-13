@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Al_item from './Al_item/Al_item'
-
 import './Al_menu.scss'
 
 export default class Al_menu extends Component {
