@@ -3,16 +3,16 @@
 .navigation {
   background-color: $navyblue;
   position: sticky;
-  top:0;
+  top: 0;
   width: 100%;
-  &__container{
+
+  &__container {
     display: flex;
     justify-content: center;
-  
   }
   &-bar {
     font-family: $Mont;
-    
+
     order: 2;
     display: flex;
     justify-content: center;
@@ -27,7 +27,7 @@
     display: block;
     text-transform: uppercase;
     color: white;
-    
+
     &::after {
       position: absolute;
       bottom: -10px;
@@ -36,12 +36,10 @@
       width: 0;
       height: 3px;
       background-color: red;
-      transition: .3s;
-      
+      transition: 0.3s;
     }
-    &:hover::after{
+    &:hover::after {
       width: 100%;
-
     }
   }
 }

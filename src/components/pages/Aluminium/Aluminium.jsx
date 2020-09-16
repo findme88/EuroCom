@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Redirect } from "react-router-dom";
+import { Route, Redirect } from "react-router-dom";
 import SimpleSlider from "./carousel/carousel";
 import Example from "./TitleDencrypt/TitleDencrypt";
 import Al_menu from "./Al_menu/Al_menu";
