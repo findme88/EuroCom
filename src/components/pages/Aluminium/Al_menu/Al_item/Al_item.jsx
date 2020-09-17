@@ -7,7 +7,7 @@ export default class Al_item extends Component {
     let { itemName, url } = this.props;
     return (
       <li >
-        <NavLink className='almenu__link' activeStyle={{ color: 'tomato', border: '2px solid rgb(231, 59, 49) '}} to={url}>
+        <NavLink className='almenu__link' activeStyle={{ color: 'blue', border: '2px solid blue '}} to={url}>
           {itemName}
         </NavLink>
       </li>
