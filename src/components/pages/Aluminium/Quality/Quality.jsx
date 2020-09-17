@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import QualityText from "./QualityText/QualityText";
+import QaCertificate from './QaCertificate/QaCertificate'
 import './Quality.scss'
 
 class Quality extends Component {
@@ -7,6 +8,7 @@ class Quality extends Component {
     return (
       <div className="aluminium__quality">
         <QualityText />
+        <QaCertificate/>
       </div>
     );
   }
