@@ -29,7 +29,7 @@ export default class NavBar extends Component {
               );
             })}
           </ul>
-          <Link to="/" className="logo">
+          <Link to="/main" className="logo">
             <img id="logo"
               src={require("../NavBarLogo/Eurocom3.png")}
               alt="logo"

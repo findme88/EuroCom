@@ -3,7 +3,7 @@ import "./DescriptionText.scss";
 
 const DescriptionText = () => {
   return (
-    <main className="description__text">
+    <article className="description__text">
       <h2 className="description__subtitle">
         Алюминиевые изделия, изготовленные методом литья под давлением, широко
         используются во многих отраслях промышленности, таких как:
@@ -133,7 +133,7 @@ const DescriptionText = () => {
         взаимовыгодные партнерские отношения и организовать регулярные поставки
         алюминиевых комплектующих для вашего предприятия.
       </p>
-    </main>
+    </article>
   );
 };
 
