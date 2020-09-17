@@ -12,7 +12,6 @@
   }
   &-bar {
     font-family: $Mont;
-    
     order: 2;
     display: flex;
     justify-content: center;
@@ -48,4 +47,16 @@
 
 .logo {
   order: 1;
+}
+
+.logo--main {
+  position: absolute;
+  right: 50px;
+  top: 150px;
+  &>#logo {
+    width: 300;
+    height: 120px;
+  }
+}
+.navigation__link--main {
 }

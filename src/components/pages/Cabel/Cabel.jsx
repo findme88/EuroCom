@@ -1,12 +1,13 @@
 import React from "react";
+import NavBar from "../../elements/NavBar/NavBar"
 
 
 
 const Cabel = () => {
   return (
-    <div className="text">
-      Hello
-    </div>
+    <div >
+      <NavBar />
+    </div >
   );
 };
 

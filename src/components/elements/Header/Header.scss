@@ -1,3 +1,30 @@
-@import "../../../index";
+@import "../../../scss/variables";
+@import "../../../scss/mixins";
 
+.header {
+  position: relative;
+  color: white;
+  padding-top: 40px;
+  padding-left: 0px;
+}
 
+.mainheader {
+  display: inline-block;
+  margin: 15px 5px;
+  font-size: 38px;
+  font-family: $Mont;
+  
+}
+
+.phone {
+  margin-top: 15px;
+  position: absolute;
+  font-size: 38px;
+  top:40px;
+  right: 0;
+  z-index: 1;
+  &>#phone {
+    color: white;
+    font-family: $Mont;
+  }
+}

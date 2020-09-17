@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Redirect } from "react-router-dom";
+import NavBar from "../../elements/NavBar/NavBar"
 import SimpleSlider from "./carousel/carousel";
 import Example from "./TitleDencrypt/TitleDencrypt";
 import Al_menu from "./Al_menu/Al_menu";
@@ -10,8 +11,10 @@ import Powder from './Powder/Powder'
 
 import "./Aluminium.scss";
 
+
 const Aluminium = () => {
-  return (
+  return (<div>
+    <NavBar />
     <div className="container aluminium">
       <SimpleSlider />
       <Example />
@@ -22,6 +25,7 @@ const Aluminium = () => {
       <Route path="/aluminium/extra" render={() => <Extra />} />
       <Route path="/aluminium/powder" render={() => <Powder />} />
     </div>
+  </div>
   );
 };
 
