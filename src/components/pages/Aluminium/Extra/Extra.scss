@@ -1,0 +1,28 @@
+.extra__text {
+    margin-top: 70px;
+    padding-bottom: 30px;
+}
+.extra__subtitle {
+    font-size: 20px;
+    color: black;
+    font-weight: normal;
+    margin-bottom: 10px;
+    
+    
+  }
+  .extra__list {
+    list-style-type: decimal;
+    margin-left: 30px;
+  
+    &__item {
+      line-height: 180%;
+  
+      strong {
+        font-weight: bold;
+      }
+    }
+  }
+  
+  .extra__info {
+    margin: 10px 0 10px;
+  }

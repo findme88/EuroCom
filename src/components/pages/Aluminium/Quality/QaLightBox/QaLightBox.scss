@@ -1,17 +1,19 @@
-.certificate__lightbox {
-  margin-top: 5px;
+.quality__lightbox {
+  display: flex;
+  margin: 25px 15px;
+  justify-content: space-between;
 
   &_wrapper {
     overflow: hidden;
     border-radius: 10px 20px;
     box-shadow: 3px 3px 3px #777;
     max-width: 300px;
-    max-height: 370px;
+    max-height: 270px;
   }
 
   &_picture {
     width: 300px;
-    height: 370px;
+    height: 270px;
     cursor: pointer;
 
     transition: all 1s ease-out;

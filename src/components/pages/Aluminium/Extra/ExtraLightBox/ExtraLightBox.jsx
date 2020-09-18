@@ -1,13 +1,12 @@
 import React, { Component } from "react";
-import QaLightbox from "react-image-lightbox";
+import ExtraLightbox from "react-image-lightbox";
 import "react-image-lightbox/style.css";
-import pic_certificate from "../../images/Certificate.jpg";
-import pic_lightbox1 from "../../images/slider4.jpg";
-import pic_lightbox2 from "../../images/slider5.jpg";
-import pic_lightbox3 from "../../images/lightbox3.jpg";
-import "./QaCertificate.scss";
+import pic_lightbox1 from "../../images/slider2.jpg";
+import pic_lightbox2 from "../../images/slider1.jpg";
+import pic_lightbox3 from "../../images/slider6.jpg";
+import "./ExtraLightBox.scss";
 
-const images = [pic_certificate, pic_lightbox1, pic_lightbox2, pic_lightbox3];
+const images = [pic_lightbox1, pic_lightbox2, pic_lightbox3];
 
 export default class Lightbox extends Component {
   constructor(props) {
@@ -23,18 +22,36 @@ export default class Lightbox extends Component {
     const { photoIndex, isOpen } = this.state;
 
     return (
-      <div className="certificate__lightbox">
-        <div className="certificate__lightbox_wrapper">
+      <div className="extra__lightbox">
+        <div className="extra__lightbox_wrapper">
           <img
-            className="certificate__lightbox_picture"
-            src={pic_certificate}
-            alt="certificate"
+            className="extra__lightbox_picture"
+            src={pic_lightbox1}
+            alt="extra"
+            onClick={() => this.setState({ isOpen: true })}
+          />
+        </div>
+
+        <div className="extra__lightbox_wrapper">
+          <img
+            className="extra__lightbox_picture"
+            src={pic_lightbox2}
+            alt="extra"
+            onClick={() => this.setState({ isOpen: true })}
+          />
+        </div>
+
+        <div className="extra__lightbox_wrapper">
+          <img
+            className="extra__lightbox_picture"
+            src={pic_lightbox3}
+            alt="extra"
             onClick={() => this.setState({ isOpen: true })}
           />
         </div>
 
         {isOpen && (
-          <QaLightbox
+          <ExtraLightbox
             mainSrc={images[photoIndex]}
             nextSrc={images[(photoIndex + 1) % images.length]}
             prevSrc={images[(photoIndex + images.length - 1) % images.length]}
