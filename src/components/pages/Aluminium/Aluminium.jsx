@@ -11,7 +11,7 @@ import Powder from "./Powder/Powder";
 
 import "./Aluminium.scss";
 
-const Aluminium = () => {
+function Aluminium() {
   return (
     <div>
       <NavBar />

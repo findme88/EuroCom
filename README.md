@@ -15,3 +15,5 @@ slick-carousel for css and font: npm install slick-carousel
 use-dencrypt-effect: npm install --save use-dencrypt-effect
 
 React Image Lightbox: npm i react-image-lightbox
+
+React Router Hash Link: npm i react-router-hash-link

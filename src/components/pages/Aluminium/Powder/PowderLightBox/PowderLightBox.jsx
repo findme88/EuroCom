@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import PowderLightbox from "react-image-lightbox";
 import "react-image-lightbox/style.css";
-import pic_lightbox1 from "../../images/lightbox1.jpg";
-import pic_lightbox2 from "../../images/lightbox2.jpg";
-import pic_lightbox3 from "../../images/lightbox3.jpg";
+import pic_lightbox1 from "../../images/powder1.jpg";
+import pic_lightbox2 from "../../images/powder2.jpg";
+import pic_lightbox3 from "../../images/powder3.jpg";
 import "./PowderLightBox.scss";
 
 const images = [pic_lightbox1, pic_lightbox2, pic_lightbox3];

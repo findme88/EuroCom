@@ -1,11 +1,13 @@
 .powder {
   display: flex;
+  justify-content: space-between;
   margin-top: 70px;
   padding-bottom: 30px;
+
 }
 
 .powder__text {
-  
+  max-width: 800px;
   padding-bottom: 30px;
 }
 

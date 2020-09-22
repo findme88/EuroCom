@@ -1,8 +1,9 @@
 import React, { Component } from "react";
+import { NavHashLink as NavLink } from "react-router-hash-link";
 import ExtraLightBox from "./ExtraLightBox/ExtraLightBox";
 import "./Extra.scss";
 
-const Extra = () => {
+function Extra() {
   return (
     <article className="extra__text">
       <h2 className="extra__subtitle">
@@ -30,7 +31,11 @@ const Extra = () => {
         </li>
         <li>
           <p className="extra__list__item">
-            нанесение полимерного покрытия (порошковая окраска)
+            нанесение полимерного покрытия (
+            <NavLink smooth to="/aluminium/powder">
+              <span>порошковая окраска</span>
+            </NavLink>
+            )
           </p>
         </li>
       </ul>
@@ -50,10 +55,10 @@ const Extra = () => {
         динамичного развития, клиентоориентированная политика, а также высокий
         уровень культуры производства – ценные активы, благодаря которым мы
         обеспечиваем клиентам высокое качество продукции, надежность поставок и
-        эффективную реализацию совместных проектов.{" "}
+        эффективную реализацию совместных проектов.
       </p>
     </article>
   );
-};
+}
 
 export default Extra;
