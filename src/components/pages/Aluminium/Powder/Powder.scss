@@ -1,0 +1,25 @@
+.powder__text {
+  margin-top: 70px;
+  padding-bottom: 30px;
+}
+
+.powder__list {
+  list-style-type: square;
+  margin-left: 30px;
+
+  &__item {
+    line-height: 180%;
+
+  }
+}
+
+.powder__info {
+  margin: 10px 0 10px;
+}
+
+.powder__subtitle {
+  font-size: 20px;
+  color: black;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
