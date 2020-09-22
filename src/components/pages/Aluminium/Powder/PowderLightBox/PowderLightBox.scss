@@ -1,0 +1,28 @@
+.powder__lightbox {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 10px;
+  
+    &_wrapper {
+      overflow: hidden;
+      border-radius: 10px 20px;
+      box-shadow: 3px 3px 3px #777;
+      max-width: 300px;
+      max-height: 270px;
+    }
+  
+    &_picture {
+      width: 300px;
+      height: 270px;
+      cursor: pointer;
+  
+      transition: all 1s ease-out;
+  
+      &:hover {
+        transform: scale(1.3);
+        border-radius: 10px 20px;
+      }
+    }
+  }

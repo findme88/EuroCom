@@ -1,8 +1,10 @@
 import React from "react";
+import PowderLightBox from './PowderLightBox/PowderLightBox'
 import "./Powder.scss";
 
 const Powder = () => {
   return (
+    <div className="powder">
     <article className="powder__text">
       <p className="powder__info">
         Полимерное покрытие алюминиевых изделий – это практичный и эстетичный
@@ -64,6 +66,8 @@ const Powder = () => {
         нам в полной мере удовлетворять запросы самых взыскательных клиентов.
       </p>
     </article>
+    <PowderLightBox />
+    </div>
   );
 };
 
