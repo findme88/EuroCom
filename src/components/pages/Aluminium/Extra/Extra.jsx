@@ -1,19 +1,25 @@
 import React, { Component } from "react";
 import { NavHashLink as NavLink } from "react-router-hash-link";
 import ExtraLightBox from "./ExtraLightBox/ExtraLightBox";
+import sprite from '../images/icons-sprite.svg'
 import "./Extra.scss";
 
 function Extra() {
   return (
     <article className="extra__text">
+      <div className="aluminium__svg">
+      <svg>
+                <use href={sprite + '#extra'}></use>
+              </svg> 
       <h2 className="extra__subtitle">
         «EuroCom» постоянно расширяет спектр дополнительных услуг и операций,
         предлагая своим партнерам полный цикл производства алюминиевых литых
         изделий.
       </h2>
+      </div>
       <p className="extra__info">
         По согласованию с заказчиком отливки подвергаются следующим
-        <strong>видам обработки</strong>:
+        <strong> видам обработки</strong>:
       </p>
       <ul className="extra__list">
         <li>

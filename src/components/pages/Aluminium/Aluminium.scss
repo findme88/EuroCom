@@ -9,4 +9,19 @@
   color: #505050;
   font-family: Arial;
 
+  &__svg {
+    display: flex;
+    justify-content: space-between;
+
+    svg {
+      width: 64px;
+      height: 42px;
+      fill: #111111;
+      transition: all 0.3s;
+      margin-right: 10px;
+    }
+    svg:hover {
+      fill: blue;
+    }
+  }
 }

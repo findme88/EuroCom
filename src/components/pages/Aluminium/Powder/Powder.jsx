@@ -1,17 +1,25 @@
 import React from "react";
 import PowderLightBox from './PowderLightBox/PowderLightBox'
+import sprite from '../images/icons-sprite.svg'
 import "./Powder.scss";
 
 const Powder = () => {
   return (
     <div className="powder">
     <article className="powder__text">
-      <p className="powder__info">
+    <div className="aluminium__svg">
+      <svg>
+                <use href={sprite + '#powder'}></use>
+              </svg> 
+      <p className="powder__subtitle">
         Полимерное покрытие алюминиевых изделий – это практичный и эстетичный
-        тип обработки поверхности. Порошковая окраска обеспечивает окрашенным
+        тип обработки поверхности. </p>
+        </div>
+        <p>Порошковая окраска обеспечивает окрашенным
         изделиям не только привлекательный внешний вид, но и защиту от
-        воздействия внешней среды.
-      </p>
+        воздействия внешней среды.</p>
+      
+      
       <p className="powder__info">
         Реализуя полный цикл обработки алюминиевых профилей и отливок, «EuroCom»
         оказывает своим клиентам услугу по нанесению полимерного покрытия.

@@ -1,13 +1,19 @@
 import React from "react";
 import "./DescriptionText.scss";
+import sprite from '../../images/icons-sprite.svg'
 
 const DescriptionText = () => {
   return (
     <article className="description__text">
+      <div className="aluminium__svg">
+      <svg>
+                <use href={sprite + '#desc'}></use>
+              </svg> 
       <h2 className="description__subtitle">
         Алюминиевые изделия, изготовленные методом литья под давлением, широко
         используются во многих отраслях промышленности, таких как:
       </h2>
+      </div>
       <ul className="description__list">
         <li>
           <p className="description__list__item">автомобилестроение; </p>

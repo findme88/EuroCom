@@ -1,14 +1,19 @@
 import React from "react";
-
+import sprite from '../../images/icons-sprite.svg'
 import "./QualityText.scss";
 
 const QualityTextTop = () => {
   return (
     <article className="quality__text">
+       <div className="aluminium__svg">
+      <svg>
+                <use href={sprite + '#quality'}></use>
+              </svg> 
       <h2 className="quality__subtitle">
         Политика «EuroCom» в области качества изготавливаемой продукции
         предполагает многоуровневую систему контроля качества.
       </h2>
+      </div>
       <ol className="quality__list">
         <li>
           <p className="quality__list__item">

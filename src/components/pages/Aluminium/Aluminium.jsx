@@ -33,6 +33,6 @@ function Aluminium() {
       </div>
     </div>
   );
-};
+}
 
 export default Aluminium;
