@@ -2,7 +2,7 @@ import React from "react";
 import { Route, Redirect } from "react-router-dom";
 import NavBar from "../../elements/NavBar/NavBar";
 import SimpleSlider from "./carousel/carousel";
-import Example from "./TitleDencrypt/TitleDencrypt";
+import Title from "./Title/Title";
 import Al_menu from "./Al_menu/Al_menu";
 import Description from "./Description/Description";
 import Quality from "./Quality/Quality";
@@ -16,9 +16,13 @@ function Aluminium() {
     <div>
       <NavBar />
       <div className="aluminium">
+        <header className="al__header">
+          <div className="overlay">
+            <SimpleSlider />
+            <Title />
+          </div>
+        </header>
         <div className="container">
-          <SimpleSlider />
-          <Example />
           <Al_menu />
           <Route
             exact

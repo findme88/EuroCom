@@ -26,7 +26,7 @@ export default class SimpleSlider extends Component {
       adaptiveHeight: true,
     };
     return (
-      <div>
+      <div className='container'>
         <Slider {...settings}>
           <div>
             <img className="al__slider" src={pic_slider1} alt="aluminium" />
