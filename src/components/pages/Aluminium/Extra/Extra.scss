@@ -1,7 +1,10 @@
 .extra__text {
   margin-top: 70px;
   padding-bottom: 30px;
-  height: 100vh;
+  
+  @media (min-width: 2600px) {
+    height: 100vh;
+  }
 }
 
 .extra__subtitle {

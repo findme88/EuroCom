@@ -3,7 +3,10 @@
   justify-content: space-between;
   margin-top: 70px;
   padding-bottom: 30px;
-  height: 100vh;
+ 
+  @media (min-width: 2600px) {
+    height: 100vh;
+  }
 }
 
 .powder__text {
