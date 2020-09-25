@@ -3,7 +3,7 @@
   justify-content: space-between;
   margin-top: 70px;
   padding-bottom: 30px;
-
+  height: 100vh;
 }
 
 .powder__text {
@@ -16,8 +16,6 @@
   color: black;
   font-weight: normal;
   margin-bottom: 10px;
-  
-  
 }
 
 .powder__list {
@@ -26,7 +24,6 @@
 
   &__item {
     line-height: 180%;
-
   }
 }
 
