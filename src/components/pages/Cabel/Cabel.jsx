@@ -7,9 +7,6 @@ import NavBar from "../../elements/NavBar/NavBar"
 import CabelsList from "./CabelsList/CabelsList"
 import cabels from "./cabels"
 
-
-
-
 const Cabel = () => {
 
   return (

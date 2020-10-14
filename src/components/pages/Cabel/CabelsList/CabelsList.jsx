@@ -13,7 +13,7 @@ const CabelsList = ({ cabels }) => (
         <li className="cabels-list__item">
           <div className="row">
             <Col md={12}>
-              <h4 className="cabels-list__item__title">Кабель алюминиевый</h4>
+              <h4 className="cabels-list__item__title">{item.name}</h4>
             </Col>
             <Col md={8}>
               <ul className="cabels-properties">
