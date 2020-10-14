@@ -15,3 +15,5 @@ slick-carousel for css and font: npm install slick-carousel
 React Image Lightbox: npm i react-image-lightbox
 
 React Router Hash Link: npm i react-router-hash-link
+
+React Bootstrap: npm install react-bootstrap bootstrap
