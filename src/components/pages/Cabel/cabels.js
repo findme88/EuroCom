@@ -4,7 +4,7 @@ const cabels = [
   {
     name: 'Кабель алюминиевый',
     code: 2000,
-    brand: 'АВВГ 2 х 2, 5',
+    brand: 'АВВГ 2 х 2.5',
     possibleLoad: 3.2,
     insulationMaterial: 'кабельный полиэтилен',
     sheathMaterial: 'кабельный полиэтилен',
@@ -17,7 +17,7 @@ const cabels = [
   {
     name: 'Кабель алюминиевый',
     code: 2007,
-    brand: 'АВВГ 2 х 2, 5',
+    brand: 'АВВГ 2 х 2.5',
     possibleLoad: 4,
     insulationMaterial: 'кабельный полиэтилен',
     sheathMaterial: 'кабельный полиэтилен',
@@ -30,7 +30,7 @@ const cabels = [
   {
     name: 'Кабель алюминиевый',
     code: 2010,
-    brand: 'АВВГ 2 х 2, 5',
+    brand: 'АВВГ 2 х 2.5',
     possibleLoad: 5,
     insulationMaterial: '-',
     sheathMaterial: '-',
@@ -40,24 +40,227 @@ const cabels = [
     cost: 2.65,
     img: ABBG2x
   },
+  {
+    name: 'Кабель алюминиевый',
+    code: 2011,
+    brand: 'АВВГ 2 х 2.5',
+    possibleLoad: 4,
+    insulationMaterial: 'кабельный полиэтилен',
+    sheathMaterial: 'кабельный пластикат',
+    outdoorUse: 'да',
+    indoorUse: 'да',
+    undergroundUse: 'да',
+    cost: 2.65,
+    img: ABBG2x
+  },
+  {
+    name: 'Кабель алюминиевый',
+    code: 2020,
+    brand: 'АВВГ 2 х 4',
+    possibleLoad: 5.3,
+    insulationMaterial: 'кабельный полиэтилен',
+    sheathMaterial: 'кабельный полиэтилен',
+    outdoorUse: 'да',
+    indoorUse: 'да',
+    undergroundUse: 'да',
+    cost: 3.2,
+    img: ABBG2x
+  },
+  {
+    name: 'Кабель алюминиевый',
+    code: 2027,
+    brand: 'АВВГ 2 х 4',
+    possibleLoad: 6.2,
+    insulationMaterial: 'кабельный полиэтилен',
+    sheathMaterial: 'кабельный полиэтилен',
+    outdoorUse: 'да',
+    indoorUse: 'да',
+    undergroundUse: 'да',
+    cost: 3.4,
+    img: ABBG2x
+  },
+  {
+    name: 'Кабель алюминиевый',
+    code: 2031,
+    brand: 'АВВГ 2 х 4',
+    possibleLoad: 6.2,
+    insulationMaterial: 'кабельный полиэтилен',
+    sheathMaterial: 'кабельный пластикат',
+    outdoorUse: 'да',
+    indoorUse: 'да',
+    undergroundUse: 'да',
+    cost: 4.1,
+    img: ABBG2x
+  },
+  {
+    name: 'Кабель алюминиевый',
+    code: 2033,
+    brand: 'АВВГ 2 х 4',
+    possibleLoad: 6.2,
+    insulationMaterial: 'кабельный пластикат',
+    sheathMaterial: 'кабельный пластикат',
+    outdoorUse: 'да',
+    indoorUse: 'да',
+    undergroundUse: 'да',
+    cost: 5.1,
+    img: ABBG2x
+  },
+  {
+    name: 'Кабель алюминиевый',
+    code: 2040,
+    brand: 'АВВГ 2 х 6',
+    possibleLoad: 7,
+    insulationMaterial: 'кабельный полиэтилен',
+    sheathMaterial: 'кабельный полиэтилен',
+    outdoorUse: 'да',
+    indoorUse: 'да',
+    undergroundUse: 'да',
+    cost: 4.2,
+    img: ABBG2x
+  },
+  {
+    name: 'Кабель алюминиевый',
+    code: 2047,
+    brand: 'АВВГ 2 х 6',
+    possibleLoad: 7,
+    insulationMaterial: 'кабельный полиэтилен',
+    sheathMaterial: 'кабельный полиэтилен',
+    outdoorUse: 'да',
+    indoorUse: 'да',
+    undergroundUse: 'да',
+    cost: 4.9,
+    img: ABBG2x
+  },
+  {
+    name: 'Кабель алюминиевый',
+    code: 2051,
+    brand: 'АВВГ 2 х 6',
+    possibleLoad: 8,
+    insulationMaterial: 'кабельный полиэтилен',
+    sheathMaterial: 'кабельный пластикат',
+    outdoorUse: 'да',
+    indoorUse: 'да',
+    undergroundUse: 'да',
+    cost: 5.8,
+    img: ABBG2x
+  },
+  {
+    name: 'Кабель алюминиевый',
+    code: 2053,
+    brand: 'АВВГ 2 х 6',
+    possibleLoad: 8,
+    insulationMaterial: 'кабельный пластикат',
+    sheathMaterial: 'кабельный пластикат',
+    outdoorUse: 'да',
+    indoorUse: 'да',
+    undergroundUse: 'да',
+    cost: 6.55,
+    img: ABBG2x
+  },
+  {
+    name: 'Кабель алюминиевый',
+    code: 2060,
+    brand: 'АВВГ 2 х 10',
+    possibleLoad: 9.5,
+    insulationMaterial: 'кабельный полиэтилен',
+    sheathMaterial: 'кабельный полиэтилен',
+    outdoorUse: 'да',
+    indoorUse: 'да',
+    undergroundUse: 'да',
+    cost: 6.8,
+    img: ABBG2x
+  },
+  {
+    name: 'Кабель алюминиевый',
+    code: 2064,
+    brand: 'АВВГ 2 х 10',
+    possibleLoad: 11,
+    insulationMaterial: 'кабельный полиэтилен',
+    sheathMaterial: 'кабельный полиэтилен',
+    outdoorUse: 'да',
+    indoorUse: 'да',
+    undergroundUse: 'да',
+    cost: 8,
+    img: ABBG2x
+  },
+  {
+    name: 'Кабель алюминиевый',
+    code: 2066,
+    brand: 'АВВГ 2 х 10',
+    possibleLoad: 11,
+    insulationMaterial: 'кабельный полиэтилен',
+    sheathMaterial: 'кабельный пластикат',
+    outdoorUse: 'да',
+    indoorUse: 'да',
+    undergroundUse: 'да',
+    cost: 9,
+    img: ABBG2x
+  },
+  {
+    name: 'Кабель алюминиевый',
+    code: 2067,
+    brand: 'АВВГ 2 х 10',
+    possibleLoad: 11,
+    insulationMaterial: 'кабельный пластикат',
+    sheathMaterial: 'кабельный пластикат',
+    outdoorUse: 'да',
+    indoorUse: 'да',
+    undergroundUse: 'да',
+    cost: 10.5,
+    img: ABBG2x
+  },
+  {
+    name: 'Кабель алюминиевый',
+    code: 2070,
+    brand: 'АВВГ 2 х 16',
+    possibleLoad: 14,
+    insulationMaterial: 'кабельный полиэтилен',
+    sheathMaterial: 'кабельный полиэтилен',
+    outdoorUse: 'да',
+    indoorUse: 'да',
+    undergroundUse: 'да',
+    cost: 11,
+    img: ABBG2x
+  },
+  {
+    name: 'Кабель алюминиевый',
+    code: 2074,
+    brand: 'АВВГ 2 х 16',
+    possibleLoad: 15.2,
+    insulationMaterial: 'кабельный полиэтилен',
+    sheathMaterial: 'кабельный полиэтилен',
+    outdoorUse: 'да',
+    indoorUse: 'да',
+    undergroundUse: 'да',
+    cost: 12,
+    img: ABBG2x
+  },
+  {
+    name: 'Кабель алюминиевый',
+    code: 2076,
+    brand: 'АВВГ 2 х 16',
+    possibleLoad: 15.2,
+    insulationMaterial: 'кабельный полиэтилен',
+    sheathMaterial: 'кабельный пластикат',
+    outdoorUse: 'да',
+    indoorUse: 'да',
+    undergroundUse: 'да',
+    cost: 14,
+    img: ABBG2x
+  },
+  {
+    name: 'Кабель алюминиевый',
+    code: 2077,
+    brand: 'АВВГ 2 х 16',
+    possibleLoad: 15.2,
+    insulationMaterial: 'кабельный пластикат',
+    sheathMaterial: 'кабельный пластикат',
+    outdoorUse: 'да',
+    indoorUse: 'да',
+    undergroundUse: 'да',
+    cost: 14.6,
+    img: ABBG2x
+  },
 ]
-
-// 2011	АВВГ 2 х 2, 5	4	каб.П / Э	ПВХ	да	да	да	2, 65
-// 2020	АВВГ 2 х 4, 0	5, 3	каб.П / Э	каб.П / Э	да	да	да	3, 2
-// 2027	АВВГ 2 х 4, 0	6, 2	каб.П / Э	каб.П / Э	да	да	да	3, 4
-// 2031	АВВГ 2 х 4, 0	6, 2	каб.П / Э	ПВХ	да	да	да	4, 1
-// 2033	АВВГ 2 х 4, 0	6, 2	ПВХ	ПВХ	да	да	да	5, 1
-// 2040	АВВГ 2 х 6, 0	7	каб.П / Э	каб.П / Э	да	да	да	4, 2
-// 2047	АВВГ 2 х 6, 0	7	каб.П / Э	каб.П / Э	да	да	да	4, 9
-// 2051	АВВГ 2 х 6, 0	8	каб.П / Э	ПВХ	да	да	да	5, 8
-// 2053	АВВГ 2 х 6, 0	8	ПВХ	ПВХ	да	да	да	6, 55
-// 2060	АВВГ 2 х 10	9, 5	каб.П / Э	каб.П / Э	да	да	да	6, 8
-// 2064	АВВГ 2 х 10	11	каб.П / Э	каб.П / Э	да	да	да	8
-// 2066	АВВГ 2 х 10	11	каб.П / Э	ПВХ	да	да	да	9
-// 2067	АВВГ 2 х 10	11	ПВХ	ПВХ	да	да	да	10, 5
-// 2070	АВВГ 2 х 16	14	каб.П / Э	каб.П / Э	да	да	да	11
-// 2074	АВВГ 2 х 16	15, 2	каб.П / Э	каб.П / Э	да	да	да	12
-// 2076	АВВГ 2 х 16	15, 2	каб.П / Э	ПВХ	да	да	да	14
-// 2077	АВВГ 2 х 16	15, 2	ПВХ	ПВХ	да	да	да	14, 6
 
 export default cabels

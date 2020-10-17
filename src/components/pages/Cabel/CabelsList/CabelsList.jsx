@@ -25,7 +25,7 @@ const CabelsList = ({ cabels }) => (
                 <li className="cabels-properties__item">Для наружных работ: <span className="cabels-properties__item-span">{item.outdoorUse}</span> </li>
                 <li className="cabels-properties__item">Для внутреных работ: <span className="cabels-properties__item-span">{item.indoorUse}</span> </li>
                 <li className="cabels-properties__item">Для подземных работ: <span className="cabels-properties__item-span">{item.undergroundUse}</span> </li>
-                <li className="cabels-properties__item">Цена: <span className="cabels-properties__item-span">{item.cost}</span> </li>
+                <li className="cabels-properties__item">Цена (грн/м): <span className="cabels-properties__item-span">{item.cost}</span> </li>
               </ul>
             </Col>
 
