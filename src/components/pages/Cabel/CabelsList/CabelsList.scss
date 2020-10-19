@@ -1,6 +1,6 @@
 .cabels-list {
 
-  &__item{
+  &__item {
     background: radial-gradient(
       circle,
       #f8f8f8 66%,
@@ -9,14 +9,27 @@
       border-radius: 5px;
       margin-bottom: 30px;
 
-    &__title{
+    &__title {
       font-size: 20px;
-      margin: 14px 50px;
+      margin: 15px 20%;
+      font-weight: 600
     }
 
-    &__img{
-      width: 70%;
+    &__img {
+      width: 80%;
       // height: 80%;
+    }
+
+    &__cost {
+      font-weight: 600;
+      color: #505050;
+      margin-bottom: 10px;
+
+      &-span {
+        // font-weight: 400;
+        color: #223F75;
+
+      }
     }
   }
 }
@@ -32,7 +45,8 @@
 
 
     &-span {
-      font-weight: 400;
+      // font-weight: 400;
+      color: #223F75;
 
     }
   }
