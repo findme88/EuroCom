@@ -1,4 +1,13 @@
 import ABBG2x from "./images/ABBG2x.jpg";
+import ABBG3x from "./images/ABBG3x.jpg";
+import ABBG4x from "./images/ABBG4x.jpg";
+import SIW2x from "./images/SIW2x.jpg";
+import SIW4x from "./images/SIW4x.jpg";
+import BBP2x from "./images/BBP2x.jpg";
+import BBP3x from "./images/BBP3x.jpg";
+
+
+
 
 const cabels = [
   {
@@ -261,6 +270,468 @@ const cabels = [
     cost: 14.6,
     img: ABBG2x
   },
+  // ABBG3x
+  {
+    name: 'Кабель алюминиевый',
+    code: 2080,
+    brand: 'АВВГ 3 х 2,5',
+    possibleLoad: 3.2,
+    insulationMaterial: 'кабельный полиэтилен',
+    sheathMaterial: 'кабельный полиэтилен',
+    outdoorUse: 'да',
+    indoorUse: 'да',
+    undergroundUse: 'да',
+    cost: 2.8,
+    img: ABBG3x
+  },
+  {
+    name: 'Кабель алюминиевый',
+    code: 2087,
+    brand: 'АВВГ 3 х 2,5',
+    possibleLoad: 4.4,
+    insulationMaterial: 'кабельный полиэтилен',
+    sheathMaterial: 'кабельный полиэтилен',
+    outdoorUse: 'да',
+    indoorUse: 'да',
+    undergroundUse: 'да',
+    cost: 3.4,
+    img: ABBG3x
+  },
+  {
+    name: 'Кабель алюминиевый',
+    code: 2092,
+    brand: 'АВВГ 3 х 2,5',
+    possibleLoad: '-',
+    insulationMaterial: '-',
+    sheathMaterial: '-',
+    outdoorUse: '-',
+    indoorUse: '-',
+    undergroundUse: '-',
+    cost: 4.55,
+    img: ABBG3x
+  },
+  {
+    name: 'Кабель алюминиевый',
+    code: 2093,
+    brand: 'АВВГ 3 х 2,5',
+    possibleLoad: 4.4,
+    insulationMaterial: 'кабельный пластикат',
+    sheathMaterial: 'кабельный пластикат',
+    outdoorUse: 'да',
+    indoorUse: 'да',
+    undergroundUse: 'да',
+    cost: 4.55,
+    img: ABBG3x
+  },
+  {
+    name: 'Кабель алюминиевый',
+    code: 2100,
+    brand: 'АВВГ 3 х 4.0',
+    possibleLoad: 5.3,
+    insulationMaterial: 'кабельный полиэтилен',
+    sheathMaterial: 'кабельный полиэтилен',
+    outdoorUse: 'да',
+    indoorUse: 'да',
+    undergroundUse: 'да',
+    cost: 4.55,
+    img: ABBG3x
+  },
+  {
+    name: 'Кабель алюминиевый',
+    code: 2107,
+    brand: 'АВВГ 3 х 4.0',
+    possibleLoad: 6.2,
+    insulationMaterial: 'кабельный полиэтилен',
+    sheathMaterial: 'кабельный полиэтилен',
+    outdoorUse: 'да',
+    indoorUse: 'да',
+    undergroundUse: 'да',
+    cost: 5.6,
+    img: ABBG3x
+  },
+  {
+    name: 'Кабель алюминиевый',
+    code: 2113,
+    brand: 'АВВГ 3 х 4.0',
+    possibleLoad: 6.2,
+    insulationMaterial: 'кабельный пластикат',
+    sheathMaterial: 'кабельный пластикат',
+    outdoorUse: 'да',
+    indoorUse: 'да',
+    undergroundUse: 'да',
+    cost: 7.1,
+    img: ABBG3x
+  },
+  // ABBG4x
+  {
+    name: 'Кабель алюминиевый',
+    code: 2131,
+    brand: 'АВВГ 4 х 2,5',
+    possibleLoad: '12,5/3ф',
+    insulationMaterial: 'кабельный пластикат',
+    sheathMaterial: 'кабельный полиэтилен',
+    outdoorUse: 'да',
+    indoorUse: 'да',
+    undergroundUse: 'да',
+    cost: 5,
+    img: ABBG4x
+  },
+  {
+    name: 'Кабель алюминиевый',
+    code: 2157,
+    brand: 'АВВГ 4 х 4.0',
+    possibleLoad: '15,1/3ф',
+    insulationMaterial: 'кабельный пластикат',
+    sheathMaterial: 'кабельный полиэтилен',
+    outdoorUse: 'да',
+    indoorUse: 'да',
+    undergroundUse: 'да',
+    cost: 8,
+    img: ABBG4x
+  },
+  {
+    name: 'Кабель алюминиевый',
+    code: 2177,
+    brand: 'АВВГ 4 х 6.0',
+    possibleLoad: '20/3ф',
+    insulationMaterial: 'кабельный пластикат',
+    sheathMaterial: 'кабельный полиэтилен',
+    outdoorUse: 'да',
+    indoorUse: 'да',
+    undergroundUse: 'да',
+    cost: 11,
+    img: ABBG4x
+  },
+  {
+    name: 'Кабель алюминиевый',
+    code: 2197,
+    brand: 'АВВГ 4 х 10',
+    possibleLoad: '25,7/3ф',
+    insulationMaterial: 'кабельный пластикат',
+    sheathMaterial: 'кабельный полиэтилен',
+    outdoorUse: 'да',
+    indoorUse: 'да',
+    undergroundUse: 'да',
+    cost: 18,
+    img: ABBG4x
+  },
+  {
+    name: 'Кабель алюминиевый',
+    code: 2217,
+    brand: 'АВВГ 4 х 16',
+    possibleLoad: '36,3/3ф',
+    insulationMaterial: 'кабельный пластикат',
+    sheathMaterial: 'кабельный полиэтилен',
+    outdoorUse: 'да',
+    indoorUse: 'да',
+    undergroundUse: 'да',
+    cost: 26,
+    img: ABBG4x
+  },
+  // СИП 2 х || SIW2x
+  {
+    name: 'Самонесущий изолированный провод',
+    code: 2220,
+    brand: 'СИП 2 х 16',
+    possibleLoad: '12',
+    insulationMaterial: 'кабельный полиэтилен',
+    sheathMaterial: '-',
+    outdoorUse: 'да',
+    indoorUse: '-',
+    undergroundUse: '-',
+    cost: 8.5,
+    img: SIW2x
+  },
+  {
+    name: 'Самонесущий изолированный провод',
+    code: 2221,
+    brand: 'СИП 2 х 16',
+    possibleLoad: '12.6',
+    insulationMaterial: 'кабельный полиэтилен',
+    sheathMaterial: '-',
+    outdoorUse: 'да',
+    indoorUse: '-',
+    undergroundUse: '-',
+    cost: 10,
+    img: SIW2x
+  },
+  {
+    name: 'Самонесущий изолированный провод',
+    code: 2222,
+    brand: 'СИП 2 х 16',
+    possibleLoad: '13.2',
+    insulationMaterial: 'кабельный полиэтилен',
+    sheathMaterial: '-',
+    outdoorUse: 'да',
+    indoorUse: '-',
+    undergroundUse: '-',
+    cost: 12,
+    img: SIW2x
+  },
+  {
+    name: 'Самонесущий изолированный провод',
+    code: 2230,
+    brand: 'СИП 2 х 25',
+    possibleLoad: '15',
+    insulationMaterial: 'кабельный полиэтилен',
+    sheathMaterial: '-',
+    outdoorUse: 'да',
+    indoorUse: '-',
+    undergroundUse: '-',
+    cost: 13,
+    img: SIW2x
+  },
+  {
+    name: 'Самонесущий изолированный провод',
+    code: 2231,
+    brand: 'СИП 2 х 25',
+    possibleLoad: '17',
+    insulationMaterial: 'кабельный полиэтилен',
+    sheathMaterial: '-',
+    outdoorUse: 'да',
+    indoorUse: '-',
+    undergroundUse: '-',
+    cost: 14,
+    img: SIW2x
+  },
+  {
+    name: 'Самонесущий изолированный провод',
+    code: 2232,
+    brand: 'СИП 2 х 10',
+    possibleLoad: '10',
+    insulationMaterial: 'кабельный полиэтилен',
+    sheathMaterial: '-',
+    outdoorUse: 'да',
+    indoorUse: '-',
+    undergroundUse: '-',
+    cost: 7.5,
+    img: SIW2x
+  },
+  {
+    name: 'Самонесущий изолированный провод',
+    code: 2233,
+    brand: 'СИП 3 х 25',
+    possibleLoad: '-',
+    insulationMaterial: 'кабельный полиэтилен',
+    sheathMaterial: '-',
+    outdoorUse: 'да',
+    indoorUse: '-',
+    undergroundUse: '-',
+    cost: 23,
+    img: SIW2x
+  },
+  {
+    name: 'Самонесущий изолированный провод',
+    code: 2240,
+    brand: 'СИП 2 х 35',
+    possibleLoad: '18',
+    insulationMaterial: 'кабельный полиэтилен',
+    sheathMaterial: '-',
+    outdoorUse: 'да',
+    indoorUse: '-',
+    undergroundUse: '-',
+    cost: 20,
+    img: SIW2x
+  },
+  {
+    name: 'Самонесущий изолированный провод',
+    code: 2241,
+    brand: 'СИП 2 х 35',
+    possibleLoad: '20',
+    insulationMaterial: 'кабельный полиэтилен',
+    sheathMaterial: '-',
+    outdoorUse: 'да',
+    indoorUse: '-',
+    undergroundUse: '-',
+    cost: 23,
+    img: SIW2x
+  },
+  // SIW4x
+  {
+    name: 'Самонесущий изолированный провод',
+    code: 2250,
+    brand: 'СИП 4 х 16',
+    possibleLoad: '27/3ф',
+    insulationMaterial: 'кабельный полиэтилен',
+    sheathMaterial: '-',
+    outdoorUse: 'да',
+    indoorUse: '-',
+    undergroundUse: '-',
+    cost: 17,
+    img: SIW4x
+  },
+  {
+    name: 'Самонесущий изолированный провод',
+    code: 2251,
+    brand: 'СИП 4 х 16',
+    possibleLoad: '31/3ф',
+    insulationMaterial: 'кабельный полиэтилен',
+    sheathMaterial: '-',
+    outdoorUse: 'да',
+    indoorUse: '-',
+    undergroundUse: '-',
+    cost: 20,
+    img: SIW4x
+  },
+  {
+    name: 'Самонесущий изолированный провод',
+    code: 2252,
+    brand: 'СИП 4 х 16',
+    possibleLoad: '35/3ф',
+    insulationMaterial: 'кабельный полиэтилен',
+    sheathMaterial: '-',
+    outdoorUse: 'да',
+    indoorUse: '-',
+    undergroundUse: '-',
+    cost: 22.56,
+    img: SIW4x
+  },
+  {
+    name: 'Самонесущий изолированный провод',
+    code: 2260,
+    brand: 'СИП 4 х 25',
+    possibleLoad: '40/3ф',
+    insulationMaterial: 'кабельный полиэтилен',
+    sheathMaterial: '-',
+    outdoorUse: 'да',
+    indoorUse: '-',
+    undergroundUse: '-',
+    cost: 28,
+    img: SIW4x
+  },
+  {
+    name: 'Самонесущий изолированный провод',
+    code: 2261,
+    brand: 'СИП 4 х 25',
+    possibleLoad: '45/3ф',
+    insulationMaterial: 'кабельный полиэтилен',
+    sheathMaterial: '-',
+    outdoorUse: 'да',
+    indoorUse: '-',
+    undergroundUse: '-',
+    cost: 28,
+    img: SIW4x
+  },
+  {
+    name: 'Самонесущий изолированный провод',
+    code: 2262,
+    brand: 'СИП 4 х 10',
+    possibleLoad: '25/3ф',
+    insulationMaterial: 'кабельный полиэтилен',
+    sheathMaterial: '-',
+    outdoorUse: 'да',
+    indoorUse: '-',
+    undergroundUse: '-',
+    cost: 15,
+    img: SIW4x
+  },
+  {
+    name: 'Самонесущий изолированный провод',
+    code: 2270,
+    brand: 'СИП 4 х 35',
+    possibleLoad: '48/3ф',
+    insulationMaterial: 'кабельный полиэтилен',
+    sheathMaterial: '-',
+    outdoorUse: 'да',
+    indoorUse: '-',
+    undergroundUse: '-',
+    cost: 40,
+    img: SIW4x
+  },
+  {
+    name: 'Самонесущий изолированный провод',
+    code: 2271,
+    brand: 'СИП 4 х 35',
+    possibleLoad: '52/3ф',
+    insulationMaterial: 'кабельный полиэтилен',
+    sheathMaterial: '-',
+    outdoorUse: 'да',
+    indoorUse: '-',
+    undergroundUse: '-',
+    cost: 46,
+    img: SIW4x
+  },
+  // BBP2x
+  {
+    name: 'Силовой медный кабель',
+    code: 4107,
+    brand: 'ВВП нг 2 х 1,5',
+    possibleLoad: 4,
+    insulationMaterial: 'кабельный пластикат',
+    sheathMaterial: 'кабельный пластикат',
+    outdoorUse: 'да',
+    indoorUse: 'да',
+    undergroundUse: 'да',
+    cost: 7.5,
+    img: BBP2x
+  },
+  {
+    name: 'Силовой медный кабель',
+    code: 4113,
+    brand: 'ВВП нг 2 х 2,5',
+    possibleLoad: 6,
+    insulationMaterial: 'кабельный пластикат',
+    sheathMaterial: 'кабельный пластикат',
+    outdoorUse: 'да',
+    indoorUse: 'да',
+    undergroundUse: 'да',
+    cost: 12.5,
+    img: BBP2x
+  },
+  {
+    name: 'Силовой медный кабель',
+    code: 4116,
+    brand: 'ВВП нг 2 х 4.0',
+    possibleLoad: 8.3,
+    insulationMaterial: 'кабельный пластикат',
+    sheathMaterial: 'кабельный пластикат',
+    outdoorUse: 'да',
+    indoorUse: 'да',
+    undergroundUse: 'да',
+    cost: 19.5,
+    img: BBP2x
+  },
+  // BBP3x
+  {
+    name: 'Силовой медный кабель',
+    code: 4122,
+    brand: 'ВВП нг 3х 1,5',
+    possibleLoad: 4,
+    insulationMaterial: 'кабельный пластикат',
+    sheathMaterial: 'кабельный пластикат',
+    outdoorUse: 'да',
+    indoorUse: 'да',
+    undergroundUse: 'да',
+    cost: 11,
+    img: BBP3x
+  },
+  {
+    name: 'Силовой медный кабель',
+    code: 4128,
+    brand: 'ВВП нг 3х 2,5',
+    possibleLoad: 6,
+    insulationMaterial: 'кабельный пластикат',
+    sheathMaterial: 'кабельный пластикат',
+    outdoorUse: 'да',
+    indoorUse: 'да',
+    undergroundUse: 'да',
+    cost: 18.5,
+    img: BBP3x
+  },
+  {
+    name: 'Силовой медный кабель',
+    code: 4131,
+    brand: 'ВВП нг 3х 4',
+    possibleLoad: 8.3,
+    insulationMaterial: 'кабельный пластикат',
+    sheathMaterial: 'кабельный пластикат',
+    outdoorUse: 'да',
+    indoorUse: 'да',
+    undergroundUse: 'да',
+    cost: 29,
+    img: BBP3x
+  },
 ]
+
 
 export default cabels
